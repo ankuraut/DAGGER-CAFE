@@ -1,0 +1,128 @@
+header{
+    height: 75px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%) , 0 0 2px rgb(0 0 0 / 7%);
+    position: relative;
+    /*z-index: 10;*/
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.header-container{
+    /*background-color: rgb(159, 240, 122);*/
+    max-width: 1300px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .68);
+}
+
+a{
+    color: black;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    cursor: grabbing;
+}
+
+.logo img{
+    height: 140%;
+    max-width: 100px;
+}
+
+/*----Left Side Box---*/
+.left-nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.left-nav nav ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 4px;
+    display: flex;
+}
+
+.left-nav nav ul li a{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    color: rgba(0, 0, 0, .68);
+}
+
+.left-nav nav ul li a:hover{
+    color: rgb(145, 207, 194);
+}
+
+/*----Right Side Box---*/
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.locate-me{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.locate-me i{
+    padding-right: 5px;
+    font-size: 19px;
+}
+
+.locate-me span a{
+    color: rgba(0, 0, 0, .68);
+}
+
+.locate-me span a:hover{
+   color: rgb(25, 172, 37);
+   cursor: pointer; 
+}
+
+.sign-up{
+    margin: 12px;
+}
+
+.sign-up, .log-in{
+    padding: 8px 15px;
+    border: 2px solid;
+    border-radius: 40px;
+    font-weight: 500;
+    line-height: 0.9;
+    color: rgba(0, 0, 0, .68);
+    cursor: grabbing;
+}
+
+.sign-up:hover, .log-in:hover{
+    background-color: white;
+    color: rgb(145, 207, 194);
+    transition: all 0.2s ease;
+}
+
+
+

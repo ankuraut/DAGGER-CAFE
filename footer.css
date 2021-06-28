@@ -1,0 +1,93 @@
+/*-----------footer---------*/
+.social-media{
+    text-align: center;
+    margin: 0em;
+    font-size: 35px;
+    display: block;
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0.8em ;
+    padding: 0;
+}
+
+.social-list__item{
+    margin: 1em; 
+}
+
+.social-list__link{
+    padding: 0.5em;    
+}
+
+.social-list__link-fb:hover{
+    color: rgb(0, 54, 155);
+}
+
+.social-list__link-gh:hover{
+    color: rgb(58, 66, 82);
+}
+
+.social-list__link-ig:hover{
+    color: rgb(253, 0, 118);
+}
+
+.social-list__link-tr:hover{
+    color: rgb(43, 133, 235);
+}
+
+.social-list__link-yt:hover{
+    color: rgb(252, 0, 0);
+}
+
+.foot a{
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    height: 350px;
+    
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.footer-cointainer{
+    padding: 0 20px;
+    display: flex;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.footer-cointainer ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.footer-cointainer ul li{
+    color: rgba(0, 0, 0, 0.658);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+}
+
+.footer-cointainer ul li:hover{
+    color: rgb(255, 210, 8);
+}
+
+.link-cointainer{
+    width: 500px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+footer h3{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+
